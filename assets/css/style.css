@@ -53,6 +53,7 @@ form{
     width: 230px;
     height: 60px;
     color: gray;
+    font-size: 15px;
 }
 
 .right-col > input{
@@ -62,4 +63,70 @@ form{
     width: 230px;
     height: 60px;
     color: gray;
+    font-size: 15px;
+}
+
+.radio-btn-part{
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid white;
+    width: 490px;
+}
+
+.radio-btn-part > input{
+ height: 15px;
+ margin: 15px 15px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    margin: 10px 0 15px;
+    gap: 2px;
+}
+
+.content > h3{
+    font-weight: 300;
+    margin: 0;
+}
+
+.content > p{
+    font-size: 11px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.radio-btn-part2{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+    border: 1px solid white;
+    width: 490px;
+}
+
+.radio-btn-part2 > input{
+ height: 15px;
+ margin: 15px 5px 15px 15px;
+}
+
+.content-s{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    margin: 10px 0 15px;
+    gap: 2px;
+}
+
+.content-s > h3{
+    font-weight: 300;
+    margin: 0;
+}
+
+.content-s > p{
+    font-size: 11px;
+    font-weight: 300;
+    margin: 0;
 }
