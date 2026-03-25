@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;;
+}
+
+form{
+    border: solid blue;
+    background-color: #57aaf3;
+    width: 550px;
+    text-align: center;
+}
+
+.first-leg{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin: 8px 0 10px;
+}
+
+.second-leg{
+    margin: 0 auto;
+    font-size: 15px;
+    width: 350px;
+    color: white;
+}
+
+.input-part{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.left-col, .right-col{
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    
+}
+
+.left-col{
+    margin: 25px 0 25px 25px;
+}
+
+.right-col{
+   margin: 25px 25px 25px 0; 
+}
+
+.left-col > input{
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    width: 230px;
+    height: 60px;
+    color: gray;
+}
+
+.right-col > input{
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    width: 230px;
+    height: 60px;
+    color: gray;
+}
