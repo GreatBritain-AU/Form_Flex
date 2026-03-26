@@ -11,8 +11,10 @@
 </head>
 <body>
     <form>
-        <div class="first-leg"><legend>CREATE AN ACCOUNT</legend></div>
-        <div class="second-leg"><legend>We always keep your name and email address privet</legend></div>
+        <div class="form-up">
+            <h1>CREATE AN ACCOUNT</h1>
+            <p>We always keep your name and email address privet</p>
+        </div>
         
         <div class="input-part">
             <div class="left-col">
@@ -27,28 +29,26 @@
                 <input type="password" name="passw_con" placeholder="Password Confirmation">
             </div>
         </div>
-        
-        <label class="radio-btn-part">
-            <input type="radio" name="join">
-    
-            <div class="content">
-                <h3>Join As a Buyer</h3>
-                <p>I am looking for a Name, Logo or Tagline for my business, brand or product.</p>
-            </div>
+
+        <label for="buyer" class="radio-btn-part">
+            <input type="radio" id="buyer" name="join">
+            <span class="content">
+                <span>Join As a Buyer</span>
+                <span>I am looking for a Name, Logo or Tagline for my business, brand or product.</span>
+            </span>
         </label>
 
-        <label class="radio-btn-part2">
-            <input type="radio" name="join">
-    
-            <div class="content-s">
-                <h3>Join As a Creative or Marcetplace Seller</h3>
-                <p>I am plan to submit name ideas, Logo designs or sell mames in Domain Marketplace.</p>
-            </div>
+        <label for="seller" class="radio-btn-part2">
+            <input type="radio" id="seller" name="join">
+            <span class="content-s">
+                <span>Join As a Creative or Marcetplace Seller</span>
+                <span>I am plan to submit name ideas, Logo designs or sell mames in Domain Marketplace.</span>
+            </span>
         </label>
 
         <div class="check">
-            <input type="checkbox" name="allow_squad">
-            <p>Allow Squadhelp to send marketing/promotional offers from time to time</p>
+            <input type="checkbox" name="allow_squad" id="allow_s">
+            <label for="allow_s">Allow Squadhelp to send marketing/promotional offers from time to time</label>
         </div>
 
         <button type="submit">Create account</button>
